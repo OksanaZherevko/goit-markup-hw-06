@@ -540,7 +540,7 @@ color: var(--accent-color);
   margin-right: 70px;
 }
 
-.footer-right {
+footer-right {
   display: inline-flex;
 }
 
@@ -595,7 +595,7 @@ color: var(--accent-color);
 }
 
 .button-icon-form {
-  fill: white;
+  fill: var(--white-color);
   vertical-align: middle;
   margin-left: 10px;
 }
@@ -604,9 +604,19 @@ color: var(--accent-color);
   margin-left: 12px;
 }
 
+
 .footer-right button:hover {
   cursor: pointer;
 }
+
+
+.bttn.primary:hover,
+.button.primary:focus {
+  background-color: #188ce8;
+  color: var(--white-color);
+}
+
+
 
 
 .site-nav {
